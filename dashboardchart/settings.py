@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'dashboardchart.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'dashboard.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'sample1.sqlite3'),
     }
 }
 
